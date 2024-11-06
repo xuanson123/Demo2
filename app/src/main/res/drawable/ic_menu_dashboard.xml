@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Ô vuông bên trái trên cùng -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M3 3h8v8H3z" />
+
+    <!-- Ô vuông bên phải trên cùng -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M13 3h8v4h-8z" />
+
+    <!-- Hình chữ nhật bên trái dưới cùng -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M3 13h8v8H3z" />
+
+    <!-- Hình chữ nhật bên phải dưới cùng -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M13 9h8v12h-8z" />
+</vector>

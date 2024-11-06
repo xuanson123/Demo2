@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Hình tờ giấy (biểu thị báo cáo) -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M6 2c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6H6zm7 1.5L18.5 9H13V3.5zM6 20V4h6v5h5v11H6z" />
+
+    <!-- Các dòng dữ liệu biểu thị thông tin báo cáo -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M8 12h8v2H8zm0 4h5v2H8z" />
+
+    <!-- Biểu đồ đơn giản bên dưới biểu thị phân tích hoặc thống kê -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M10 15h2v4h-2zm4-2h2v6h-2zm-8 4h2v2H6z" />
+</vector>

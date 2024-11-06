@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".Login_Page">
+
+    <!-- Username Field -->
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:minHeight="48dp"
+        android:paddingVertical="12dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingVertical="12dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:minHeight="48dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Register Link -->
+    <TextView
+        android:id="@+id/register_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Register here"
+        android:textColor="#0044CC"
+        android:textSize="16sp"
+        android:paddingTop="16dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>
